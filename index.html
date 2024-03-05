@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="FR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <header class="header">
+       
+        <div class="header__logo-lang">
+        <a  href="/index.html" >
+          <img  src="assets/img/Oniriz.png" alt="Logo" width="40%" >
+        </a>
+        </div>
+
+            <div class='nav'>
+          <ul>
+           
+            <li><a class="active" href="#contact">Nous contacter </a></li>
+            <li><a class="active" href="#Tarif">Tarifs</a></li>
+            <li><a class="active" href="#cFonctionalite">Fonctionnalités</a></li>
+            <li><button>S’inscrire</button></li>
+          </ul>
+            </div>
+            
+    </header>
+    <main> 
+
+ <section class="hero">
+    <div class="hero__img">
+        <img src="assets/img/Cover.png" alt="image " />
+      </div>
+
+    <h1 class="hero_title"> Oniriz </h1>
+    <h3 class="hero_description"> Notre priorité, la compréhension de vos rêves</h3>
+ <p class="hero_texte"> Oniriz est un espace dédié où les rêveurs peuvent consigner leurs expériences nocturnes, bénéficier d'une interprétation personnalisée et découvrir des fonctionnalités uniques pour approfondir leur compréhension onirique.</p>
+
+ <div class="bouton_home">
+    <a href="replique.html" class="discover__button">Découvrir le site </a>
+  </div>
+ </section>
+
 
     <div class="card text-center" style="width: 400px; margin: auto;">
        
@@ -15,7 +50,7 @@
             
         </div>
 
-        <img src="chemin/vers/votre/image.jpg" class="card-img-top mx-auto" alt="Oniriz Image">
+        <img src="assets/img/img_prez.png" alt="Oniriz Image" width="50%">
         
     </div>
 
@@ -63,7 +98,7 @@
         
     </article>
     <section class="pricing py-5">
-        <h2 class="pricing__title">Fonctionnalités</h2>
+        <h2 class="pricing__title">Quels sont les Tarifs  ? </h2>
         <div class="container">
             <div class="row">
                
@@ -118,7 +153,57 @@
         </div>
     </section>
     
+</main>
     
+<div class="contact">
+    <h2 class="contact_title"> Notre site vous intéresse ? </h2>
+    <p class="contact_description"> Renseignez votre adresse mail pour être tenu au courant des dernières nouveautés de Oniriz. </p>
+    <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="" >
+        <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+        <button class="btn btn_get btn_get_two" type="submit">S’inscrire</button>
+        </form>
+        <p class="contact_text"> Vous pouvez vous désabonner à tout moment.</p>
+        </div>
+
+<div class="mt-5 pt-5 pb-5 footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-xs-12 about-company">
+          <img src="../public/img/erik1.webp" alt="" >
+          <div class="reseau">
+            <a href="#">
+                <img class="menu__icon" src="../public/icones/instagram.svg" alt="instagram icon">
+            </a>
+            <a href="#">
+                <img class="menu__icon" src="../public/icones/facebook.svg" alt="facebook icon">
+            </a>
+            <a href="#">
+                <img class="menu__icon" src="../public/icones/twitter.svg" alt="twitter icon">
+            </a>
+        </div>
+        </div>
+
+        <div class="col-lg-3 col-xs-12 links">
+          <h4 class="mt-lg-0 mt-sm-3">Aide & Informations</h4>
+            <ul class="m-0 p-0">
+              <li> <a href="#">Politique de confidentialité</a></li>
+              <li> <a href="#">Politique de cookies</a></li>
+             
+            </ul>
+        </div>
+        <div class="col-lg-4 col-xs-12 location">
+          <h4 class="mt-lg-0 mt-sm-4">Autres</h4>
+          <ul class="m-0 p-0">
+            <li> <a href="#">À propos</a></li>
+            <li> <a href="#">Contact</a></li>
+           
+          </ul>
+      </div>
+      
+    </div>
+    </div>
+
+</div>
 
 
 </body>
