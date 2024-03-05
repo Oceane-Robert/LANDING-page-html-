@@ -1,0 +1,13 @@
+/* Transforme le modèle de boite par défaut pour inclure dans la largeur et la hauteur, les marges intérieures et les bordures. */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Les règles typographiques générales qui s'appliquent à tout le site */
+
+/* Les règles typographiques générales des titres */
+
+
+/* permet d'annuler la mise en forme des bouton qu'applique le navigateur. */

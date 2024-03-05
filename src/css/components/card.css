@@ -1,0 +1,72 @@
+#container{
+	background:var(--fond) ;
+	border-radius: 20px;
+	margin: 10px;
+	height: 270px;
+	width: 360px;
+    border: 2px solid var(--intermediare); 
+    
+}
+
+.card {
+    margin-top: 50px;
+     
+}
+
+.product-details {
+	position: relative;
+	text-align: left;
+	padding: 15px;
+	height: 100%;
+	float: left;
+	width: 55%;
+
+}
+
+#container .product-details h1{
+	font-family: 'inter';
+	display: inline-block;
+	position: relative;
+	font-size: var(--c-a-r-d--b-o-d-y);
+	color: var(--intermediare);
+	margin: 0;
+	
+}
+
+
+#container .product-details > p {
+font-family: 'Roboto Condensed';
+font-size: var(--c-a-r-d--b-o-d-y);
+	color: var(--intermediare);
+    font-style: italic ;
+	
+}
+
+.product-image {
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 270px;
+	float: right;
+	width: 43%;
+	display: inline-block;
+    
+    border-radius: 20px; 
+}
+
+#container img {width: 100%;height: 100%;}
+
+
+.product-image:hover img {transition: all 0.3s ease-out;}
+.product-image:hover img {transform: scale(1.2, 1.2);}
+
+.info--title{
+    font-size: var(--titre_home);
+    font-family: 'inter';
+    font-weight: 700;
+    text-align: center;
+}
+
+
+

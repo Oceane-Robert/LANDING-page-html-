@@ -1,0 +1,7 @@
+/* Pour rendre les images responsives */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mise en forme des légendes pour les images */
