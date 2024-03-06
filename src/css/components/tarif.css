@@ -1,27 +1,26 @@
 .pricing-container {
   display: flex;
-  justify-content: space-between; /* Espace entre les éléments (cartes) */
-  max-width: 1000px; /* Ajustez la largeur maximale selon vos besoins */
-  margin: 0 auto; /* Centrer le contenu horizontalement */
+  justify-content: space-between; 
+  max-width: 100%;
+  margin: 0 auto; 
 }
-
-section.pricing {
+.pricing {
   width: 48%;
-  margin: 30px;
-    background: linear-gradient(to right, #0062E6, #33AEFF);
-  }
-  
-  .pricing  {
-    border-radius: 20px;
- 
+  margin: 60px;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  border-radius: 20px;
+  padding-bottom: 30px;
   }
 
   .card-price{
-    padding: 40px;
+    padding: 30px;
+    margin: 0;
+
   }
   
   .pricing hr {
-    margin: 55px;
+    margin-right: 55px;
+    margin-left: 55px;
     text-align: center;
     color: black;
   }
@@ -37,10 +36,11 @@ section.pricing {
   }
   
   .btn {
-    
+    text-align: center;
    
 }
 .discover_button{
+position: relative;
 font-weight: var(--body-1-fw);
 background-color: var(--color-details);
 border: 1px solid var(--color-details);
@@ -52,5 +52,5 @@ font-family: 'inter';
 font-weight: 700;
 font-size: var(--boutons);
 color: var(--color-texte);
-
+top: 5px;
 }

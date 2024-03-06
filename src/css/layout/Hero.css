@@ -8,8 +8,27 @@
   }
   
   .hero__img {
-    width: 45%;
+    width: 50%;
+    position: relative;
+    top: 51px;
   }
+
+  .hero_title {
+    position: relative;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero_description {
+    position: relative;
+    top: 11px;
+  }
+
+.hero-text {
+    margin-left: 85.5px;
+}
 
 
 

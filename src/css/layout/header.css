@@ -1,12 +1,9 @@
-ul {
+.header_end {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  display: flex; /* Utilise flexbox pour aligner les éléments horizontalement */
-}
-.header_end {
-  display: flex;
+  display: flex; 
   justify-content: flex-end;
   align-items: center;
   align-content: flex-end;
@@ -20,7 +17,7 @@ ul {
 }
 
 .nav_hero a {
-  color: black;
+  color: var(--color-texte-footer);
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -39,13 +36,14 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: aqua;
+  background: linear-gradient(90deg, rgba(31, 27, 46, 0.35) 0%, rgba(216, 195, 254, 0.01) 100%);
+  box-shadow: 0px 4px 4px 0px rgba(216, 195, 254, 0.01);
   z-index: 3;
-  padding: 10px;
+  padding: 12.5px 25px 12.5px 38.5px;
 }
 
 /* Styles pour le bouton */
-button {
+.nav_button {
   border: none;
   color: black;
   background-color: #BFAFF2;
@@ -57,7 +55,7 @@ button {
   border-radius: 15px;
 }
 
-button:hover {
+.nav_button:hover {
   border: 2px solid white;
   background-color: black;
   color: white;
