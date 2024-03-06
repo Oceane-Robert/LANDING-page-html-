@@ -1,0 +1,17 @@
+.hero_title {
+    position: relative;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero_description {
+    position: relative;
+    top: 11px;
+    margin-left: 7px;
+  }
+
+  .hero_texte {
+    margin-right: 171px;
+  }
