@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
     <header class="header">
        
-        <div class="header__logo-lang">
-        <a  href="/index.html" >
-          <img  src="assets/img/Oniriz.png" alt="Logo" width="40%" >
-        </a>
-        </div>
 
-            <div class='nav'>
-          <ul>
+            <div class='nav'> 
+             <ul>   
+            <a class="logo" href="/index.html" >
+          <img  src="assets/img/Oniriz.png" alt="Logo" width="100" >
+        </a>
+          
+          
+            <li class="nav_hero"><a class="active" href="#contact">Nous contacter </a></li>
+            <li class="nav_hero"><a class="active" href="#Tarif">Tarifs</a></li>
+            <li class="nav_hero"><a class="active" href="#cFonctionalite">Fonctionnalités</a></li>
            
-            <li><a class="active" href="#contact">Nous contacter </a></li>
-            <li><a class="active" href="#Tarif">Tarifs</a></li>
-            <li><a class="active" href="#cFonctionalite">Fonctionnalités</a></li>
-            <li><button>S’inscrire</button></li>
+            <li class="nav_hero"><button>S’inscrire</button></li>
           </ul>
             </div>
             
@@ -28,25 +29,26 @@
     <main> 
 
  <section class="hero">
+
+    <div class="hero-text">
+        <h1 class="hero_title"> Oniriz </h1>
+        <h3 class="hero_description"> Notre priorité, la compréhension de vos rêves</h3>
+     <p class="hero_texte"> Oniriz est un espace dédié où les rêveurs peuvent consigner leurs expériences nocturnes, bénéficier d'une interprétation personnalisée et découvrir des fonctionnalités uniques pour approfondir leur compréhension onirique.</p>
+     <button>S’inscrire</button>
+    </div>
+    
+     
     <div class="hero__img">
         <img src="assets/img/Cover.png" alt="image " />
       </div>
-
-    <h1 class="hero_title"> Oniriz </h1>
-    <h3 class="hero_description"> Notre priorité, la compréhension de vos rêves</h3>
- <p class="hero_texte"> Oniriz est un espace dédié où les rêveurs peuvent consigner leurs expériences nocturnes, bénéficier d'une interprétation personnalisée et découvrir des fonctionnalités uniques pour approfondir leur compréhension onirique.</p>
-
- <div class="bouton_home">
-    <a href="replique.html" class="discover__button">Découvrir le site </a>
-  </div>
- </section>
+</section>
 
 
     <div class="card text-center" style="width: 400px; margin: auto;">
        
         <div class="card-body">
-            <h5 class="card-title">Nous vous présentons Oniriz</h5>
-            <p class="card-text"> Oniriz</p>
+            <h2 class="card-title">Nous vous présentons Oniriz</h2>
+            <h1 class="card-text"> Oniriz</h1>
             
         </div>
 
@@ -96,62 +98,54 @@
         </section>
         
         
-    </article>
-    <section class="pricing py-5">
-        <h2 class="pricing__title">Quels sont les Tarifs  ? </h2>
-        <div class="container">
-            <div class="row">
-               
-                <div class="col-lg-4">
-                    <div class="card mb-5 mb-lg-0">
+    </article> 
+    <h2 class="pricing__title">Quels sont les Tarifs  ? </h2>
+   
+    <div class="pricing-container">
+    <section class="pricing ">
                         <div class="card-body">
-                            <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
-                            <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
+                           
+                            <h4 class="card-price ">0 € / MOIS</h4>
                             <hr>
                             <ul class="fa-ul">
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
                                 <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
                                 <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited Private Projects</li>
-                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated Phone Support</li>
-                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain</li>
-                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
+                                
                             </ul>
-                            <div class="d-grid">
-                                <a href="#" class="btn btn-primary text-uppercase">Button</a>
-                            </div>
+                           <div class="btn">
+                                <a href="replique.html" class="discover_button">Découvrir le site </a>
+                              </div>
                         </div>
-                    </div>
-                </div>
-               
-                <div class="col-lg-4">
-                    <div class="card mb-5 mb-lg-0">
-                      <div class="card-body">
-                        <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
-                        <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
-                        <hr>
-                        <ul class="fa-ul">
-                          <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
-                          <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
-                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
-                          <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
-                            Reports</li>
-                        </ul>
-                        <div class="d-grid">
-                          <a href="#" class="btn btn-primary text-uppercase">Button</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
 
-            </div>
-        </div>
+                        
+
     </section>
+
+    <section class="pricing ">
+        <div class="card-body">
+           
+            <h4 class="card-price ">0 € / MOIS</h4>
+            <hr>
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
+                
+                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited Private Projects</li>
+               
+            </ul>
+           <div class="btn">
+                <a href="replique.html" class="discover_button">Découvrir le site </a>
+              </div>
+        </div>
+
+        
+
+</section>
+</div>
+
+
+    
     
 </main>
     
@@ -165,46 +159,55 @@
         <p class="contact_text"> Vous pouvez vous désabonner à tout moment.</p>
         </div>
 
-<div class="mt-5 pt-5 pb-5 footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 col-xs-12 about-company">
-          <img src="../public/img/erik1.webp" alt="" >
-          <div class="reseau">
-            <a href="#">
-                <img class="menu__icon" src="../public/icones/instagram.svg" alt="instagram icon">
-            </a>
-            <a href="#">
-                <img class="menu__icon" src="../public/icones/facebook.svg" alt="facebook icon">
-            </a>
-            <a href="#">
-                <img class="menu__icon" src="../public/icones/twitter.svg" alt="twitter icon">
-            </a>
-        </div>
-        </div>
 
-        <div class="col-lg-3 col-xs-12 links">
-          <h4 class="mt-lg-0 mt-sm-3">Aide & Informations</h4>
-            <ul class="m-0 p-0">
+
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Company<span>logo</span></h3>
+
+				<div class="footer-icons">
+					
+                        <a href="#">
+                            <img class="menu__icon" src="assets/icones/instagram.svg" alt="instagram icon">
+                        </a>
+                        <a href="#">
+                            <img class="menu__icon" src="assets/icones/facebook.svg" alt="facebook icon">
+                        </a>
+                        <a href="#">
+                            <img class="menu__icon" src="assets/icones/twitter.svg" alt="twitter icon">
+                        </a>
+                    
+                </div>
+
+				
+			</div>
+
+			<div class="footer-center">
+
+				<h4 class="footer_titre">Aide & Informations</h4>
+            <ul class="footer_texte">
               <li> <a href="#">Politique de confidentialité</a></li>
               <li> <a href="#">Politique de cookies</a></li>
              
             </ul>
-        </div>
-        <div class="col-lg-4 col-xs-12 location">
-          <h4 class="mt-lg-0 mt-sm-4">Autres</h4>
-          <ul class="m-0 p-0">
-            <li> <a href="#">À propos</a></li>
-            <li> <a href="#">Contact</a></li>
-           
-          </ul>
-      </div>
-      
-    </div>
-    </div>
 
-</div>
+			</div>
 
+			<div class="footer-right">
+                    <h4 class="footer_titre">Autres</h4>
+                    <ul class="footer_texte">
+                      <li> <a href="#">À propos</a></li>
+                      <li> <a href="#">Contact</a></li>
+                     
+                    </ul>
+
+			
+
+			</div>
+
+		</footer>
 
 </body>
 </html>

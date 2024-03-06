@@ -1,0 +1,14 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hero-text {
+    width: 50%;
+  }
+  
+  .hero__img {
+    width: 45%;
+  }
+  
+  

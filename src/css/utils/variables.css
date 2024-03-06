@@ -1,22 +1,28 @@
 :root {
   /* Styles de couleur */
  /* Color styles */
---card: rgba(216, 195, 254, 1);
---details: rgba(106, 76, 165, 1);
---boutons: rgba(191, 175, 242, 1);
---texte: rgba(255, 255, 255, 1);
---fond: rgba(31, 27, 46, 1);
---texte2: rgba(0, 0, 0, 1);
---texte-footer: rgba(182, 180, 188, 1);
+ --color-tarif: linear-gradient(to bottom, rgba(31,27,46) 0%,rgba(216,195,254) 100%);
+ --color-footer: linear-gradient(to bottom, rgba(31,27,46) 0%,rgba(216,195,254) 100%);
+ --color-card: rgba(216,195,254);
+ --color-details: rgba(106,76,165);
+ --color-boutons: rgba(191,175,242);
+ --color-presentation: linear-gradient(to bottom, rgba(31,27,46) 0%,rgba(216,195,254) 58.5%,rgba(0,0,0) 100%);
+ --color-texte: rgba(255,255,255);
+ --color-section: linear-gradient(to bottom, rgba(106,76,165) 0%,rgba(122,93,207) 30%,rgba(141,113,255) 65%,rgba(140,153,250) 97%);
+ --color-fond: rgba(31,27,46);
+ --color-texte-2: rgba(0,0,0);
+ --color-texte-footer: rgba(182,180,188);
 
   /* Tailles de police de caractère */
-  --title-xxl: 2.25rem;
-  --title-xl: 1.5rem;
-  --title-lg: 1.125rem;
-  --text-xxl: 3rem;
-  --text-xl: 1.375rem;
-  --text-md: 0.813rem;
-  --text-sm: 0.688rem;
+  --nom: 120px;
+  --body: 24px;
+  --h3: 32px;
+  --h4: 28px;
+  --h2: 40px;
+  --smal: 16px;
+  --h4: 20px;
+  --boutons: 20px;
+  --card: 36px;
 
   /* Polices de caractère */
   --font-mono: 'Space Mono', monospace;

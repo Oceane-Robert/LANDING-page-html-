@@ -1,0 +1,56 @@
+.pricing-container {
+  display: flex;
+  justify-content: space-between; /* Espace entre les éléments (cartes) */
+  max-width: 1000px; /* Ajustez la largeur maximale selon vos besoins */
+  margin: 0 auto; /* Centrer le contenu horizontalement */
+}
+
+section.pricing {
+  width: 48%;
+  margin: 30px;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+  }
+  
+  .pricing  {
+    border-radius: 20px;
+ 
+  }
+
+  .card-price{
+    padding: 40px;
+  }
+  
+  .pricing hr {
+    margin: 55px;
+    text-align: center;
+    color: black;
+  }
+  
+  .pricing ul li {
+    margin: 25px;
+    margin-bottom: 5px;
+    list-style-type: none;
+  }
+  
+  .pricing .text-muted {
+    opacity: 20%;
+  }
+  
+  .btn {
+    
+   
+}
+.discover_button{
+font-weight: var(--body-1-fw);
+background-color: var(--color-details);
+border: 1px solid var(--color-details);
+padding: 10px 30px 10px 30px;
+border-radius: 15px;
+align-items: center;
+text-decoration: none;
+font-family: 'inter';
+font-weight: 700;
+font-size: var(--boutons);
+color: var(--color-texte);
+
+}
