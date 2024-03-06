@@ -1,5 +1,5 @@
 .footer-distributed {
-    background: #666;
+    background: var(--color-footer);
     width: 100%;
     text-align: left;
     font: bold 16px sans-serif;

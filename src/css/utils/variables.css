@@ -1,7 +1,7 @@
 :root {
   /* Styles de couleur */
  /* Color styles */
- --color-tarif: linear-gradient(to bottom, rgba(31,27,46) 0%,rgba(216,195,254) 100%);
+ --color-tarif: linear-gradient(to bottom, hsl(253, 26%, 14%) 0%,rgba(216,195,254) 100%);
  --color-footer: linear-gradient(to bottom, rgba(31,27,46) 0%,rgba(216,195,254) 100%);
  --color-card: rgba(216,195,254);
  --color-details: rgba(106,76,165);
@@ -24,17 +24,15 @@
   --boutons: 20px;
   --card: 36px;
 
-  /* Polices de caractère */
-  --font-mono: 'Space Mono', monospace;
-  --font-sans-serif: 'Mulish', sans-serif;
-
-  /* Font variantes */
-  --letter-spacing: 0.05em;
-
   /* Espaces */
   --space1x: 8px;
   --space2x: 16px;
   --space3x: 24px;
   --space4x: 48px;
   --space5x: 80px;
+  /* Effect styles */
+--effet-sur-le-footer:  0px 4px 4px rgba(0, 0, 0, 0.25);
+--effet-sur-les-tarifs-shadows:  0px 4px 4px rgba(216, 195, 254, 0.1);
+--effet-sur-les-tarifs-blur: blur(4px);
 }
+
