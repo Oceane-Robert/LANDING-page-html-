@@ -1,2 +1,56 @@
+.avantages_haut {
+    display: flex;
+    align-items: center;
+}
 
-    
+.avantages_bas {
+    display: flex;
+    align-items: center;
+}
+
+.avantages_card {
+    background-color: var(--color-card);
+    border-radius : 16px;
+    width: 515px;
+    margin: 75px;
+}
+
+.avantages_text {
+    padding: 30px;
+    color: var(--texte2, #000);
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 26px; 
+}
+
+.avantages_title {
+    text-align: center;
+    color: var(--texte2, #000);
+    font-family: "Gelato Luxe";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.avantages_img {
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+
+.numero {
+    background-color: var(--color-details);
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    margin: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: var(--texte, var(--blanc, #FFF));
+    font-family: "Gelato Luxe";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
