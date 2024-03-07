@@ -1,1 +1,37 @@
- 
+ .contact {
+    text-align: center;
+ }
+
+ .contact__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+ }
+
+ .contact__btn {
+    border: none;
+    color: black;
+    background-color: #BFAFF2;
+    padding: 13px 38px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+ }
+
+    .contact__btn:hover {
+        border: 2px solid white;
+        background-color: black;
+        color: white;
+        border: black;
+    }
+
+    .contact__mail {
+        width: 350px;
+        height: 45px;
+        text-align: sat;
+        color: var(--color-texte-footer);
+    }
+    
