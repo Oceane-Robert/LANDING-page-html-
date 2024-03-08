@@ -1,4 +1,47 @@
 .formulaire { 
-    background: url('assets/img/Rectangle 212.png');
-    background-size: cover;
+}
+
+.formulaire_container {
+    display: flex;
+    margin-top: 140px;
+}
+
+
+.formulaire__nom {
+    position: relative;
+    text-align: left;
+    margin-right: auto;
+    margin-bottom: 34px;
+}
+
+.nom__text{
+    display: flex;
+    margin-top: 8px;
+    width: 471px;
+    height: 49px;
+    border: 1px solid var(--blanc, #FFF);
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.formulaire__message {
+    width: 100%;
+    display: flex;
+    margin-top: 8px;
+    height: 136px;
+    padding: 10px;
+    border: 1px solid var(--blanc, #FFF);
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.formulaire__text {
+    margin-right: 100px;
+}
+
+.formulaire__img {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    z-index: -1;
 }
