@@ -16,3 +16,8 @@
     justify-content: center;
     margin: auto;
 }
+
+.presentation {
+    background: var(--presentation, linear-gradient(90deg, rgba(31, 27, 46, 0.05) -7.61%, rgba(216, 195, 254, 0.10) 49.55%, rgba(0, 0, 0, 0.05) 90.1%));
+    backdrop-filter: blur(31.24287223815918px);
+}
