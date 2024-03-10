@@ -33,6 +33,8 @@ Soyez attentifs à l'ordre d'import :
 @import "layout/hero.css";
 @import "layout/presentation.css";
 @import "layout/formulaire.css";
+@import "layout/propos.css";
+@import "layout/equipe.css";
 
 /* Components */
 @import "components/btn.css";

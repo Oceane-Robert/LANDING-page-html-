@@ -8,13 +8,16 @@
 }
 
 .presentation {
-    margin-top: 50px;  
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;  
 }
 
 .presentation-img {
     display: flex;
     justify-content: center;
     margin: auto;
+    width: 50%;
 }
 
 .presentation {

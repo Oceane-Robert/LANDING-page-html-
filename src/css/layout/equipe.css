@@ -1,0 +1,19 @@
+.equipe {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.equipe_person {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.equipe_mail {
+    color: #fff;
+    text-decoration: none;
+}
+
+.equipe_icon img {
+    padding: 20px;
+}

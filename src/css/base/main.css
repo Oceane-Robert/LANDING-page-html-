@@ -54,3 +54,9 @@ h1{
   font-size: var(--nom);
 }
 /* permet d'annuler la mise en forme des bouton qu'applique le navigateur. */
+.container {
+  position: relative;
+  margin-top: 150px;
+  left: 45px;
+  margin-right: 200px;
+}
