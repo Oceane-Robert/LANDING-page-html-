@@ -1,5 +1,6 @@
 .footer-distributed {
-    background: var(--footer, linear-gradient(90deg, rgba(31, 27, 46, 0.35) 3.72%, rgba(216, 195, 254, 0.01) 99.83%));
+    background: rgb(216,195,254);
+    background: radial-gradient(circle, rgba(216,195,254,0.12510941876750703) 1%, rgba(31,27,46,0.45284051120448177) 100%);
     backdrop-filter: blur(31.2450008392334px);
     width: 100%;
     font: bold 16px sans-serif;
